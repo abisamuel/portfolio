@@ -1,9 +1,24 @@
-title: "Abigail Samuel"
-description: "My portfolio"
-baseurl: "/portfolio" # Because your site is at /portfolio
+title: Abigail Samuel Portfolio
+description: My portfolio and projects
+baseurl: "" # leave empty for GitHub Pages root
 url: "https://abisamuel.github.io"
+
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 plugins:
   - jekyll-remote-theme
 
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+# Navigation menu
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Projects
+    link: /projects
+  - name: Contact
+    link: /contact
+
+# Theme settings
+show_downloads: false
+google_analytics: ""
