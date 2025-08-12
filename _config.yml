@@ -1,3 +1,4 @@
-remote_theme: arkadianriver/spectral
 plugins:
   - jekyll-remote-theme
+
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
