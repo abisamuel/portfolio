@@ -1,0 +1,3 @@
+remote_theme: arkadianriver/spectral
+plugins:
+  - jekyll-remote-theme
