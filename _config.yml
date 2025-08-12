@@ -1,3 +1,8 @@
+title: "Abigail Samuel"
+description: "My portfolio"
+baseurl: "/portfolio" # Because your site is at /portfolio
+url: "https://abisamuel.github.io"
+
 plugins:
   - jekyll-remote-theme
 
