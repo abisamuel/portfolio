@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.2' # GitHub Actions supports this
       - run: gem install bundler jekyll
       - run: bundle init && echo 'gem "jekyll-remote-theme"' >> Gemfile
       - run: bundle install
