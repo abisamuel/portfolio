@@ -1,24 +1,10 @@
-title: Abigail Samuel Portfolio
-description: My portfolio and projects
-baseurl: "" # leave empty for GitHub Pages root
-url: "https://abisamuel.github.io"
-
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-
+title: "Abigail"
+description: "Writer | Portfolio"
 plugins:
   - jekyll-remote-theme
 
-# Navigation menu
-nav:
-  - name: Home
-    link: /
-  - name: About
-    link: /about
-  - name: Projects
-    link: /projects
-  - name: Contact
-    link: /contact
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
-# Theme settings
+# Optional extras
+author: "Your Name"
 show_downloads: false
-google_analytics: ""
